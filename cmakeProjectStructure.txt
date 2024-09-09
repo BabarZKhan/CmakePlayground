@@ -1,0 +1,112 @@
+cmake-inside-out/
+│
+├── 00-Introduction/
+│   ├── 01-What-is-CMake.md
+│   ├── 02-Installing-CMake.md
+│   └── 03-First-CMakeLists.txt.md
+│
+├── 01-Basic-CMake/
+│   ├── 01-CMake-Lists.md
+│   ├── 02-Basic-Commands/
+│   │   ├── CMakeLists.txt
+│   │   └── Explanation.md
+│   ├── 03-Building-Simple-C-Project/
+│   │   ├── main.c
+│   │   ├── CMakeLists.txt
+│   │   └── Explanation.md
+│   └── 04-Building-Simple-C++-Project/
+│       ├── main.cpp
+│       ├── CMakeLists.txt
+│       └── Explanation.md
+│
+├── 02-Intermediate-CMake/
+│   ├── 01-Variables/
+│   │   ├── CMakeLists.txt
+│   │   └── Explanation.md
+│   ├── 02-Functions/
+│   │   ├── CMakeLists.txt
+│   │   └── Explanation.md
+│   ├── 03-Project-Structure/
+│   │   ├── src/
+│   │   ├── include/
+│   │   ├── CMakeLists.txt
+│   │   └── Explanation.md
+│   ├── 04-Linking-Libraries/
+│   │   ├── CMakeLists.txt
+│   │   ├── Static-Library.md
+│   │   ├── Shared-Library.md
+│   │   └── Explanation.md
+│   └── 05-Custom-Commands-and-Targets/
+│       ├── CMakeLists.txt
+│       └── Explanation.md
+│
+├── 03-Advanced-CMake/
+│   ├── 01-Target-Properties/
+│   │   ├── CMakeLists.txt
+│   │   └── Explanation.md
+│   ├── 02-Exporting-Libraries/
+│   │   ├── CMakeLists.txt
+│   │   └── Explanation.md
+│   ├── 03-CMake-Presets/
+│   │   ├── CMakePresets.json
+│   │   └── Explanation.md
+│   ├── 04-Toolchains/
+│   │   ├── cross-compilation-toolchain.cmake
+│   │   ├── CMakeLists.txt
+│   │   └── Explanation.md
+│   └── 05-External-Projects-and-FetchContent/
+│       ├── CMakeLists.txt
+│       └── Explanation.md
+│
+├── 04-Build-System-Integration/
+│   ├── 01-Using-Ninja/
+│   │   ├── CMakeLists.txt
+│   │   └── Explanation.md
+│   ├── 02-Using-Makefiles/
+│   │   ├── CMakeLists.txt
+│   │   └── Explanation.md
+│   ├── 03-Using-MSBuild/
+│   │   ├── CMakeLists.txt
+│   │   └── Explanation.md
+│   └── 04-Using-Xcode/
+│       ├── CMakeLists.txt
+│       └── Explanation.md
+│
+├── 05-Testing/
+│   ├── 01-Unit-Tests-with-CMake/
+│   │   ├── test.cpp
+│   │   ├── CMakeLists.txt
+│   │   └── Explanation.md
+│   ├── 02-Integration-Tests/
+│   │   ├── test-integration.cpp
+│   │   ├── CMakeLists.txt
+│   │   └── Explanation.md
+│   └── 03-CTest/
+│       ├── CTestConfig.cmake
+│       └── Explanation.md
+│
+├── 06-CMake-Best-Practices/
+│   ├── 01-Project-Structure.md
+│   ├── 02-Versioning.md
+│   ├── 03-Handling-Dependencies.md
+│   └── 04-Optimizing-Builds.md
+│
+├── 07-Troubleshooting-and-Debugging/
+│   ├── 01-Common-Issues.md
+│   ├── 02-Debugging-CMakeLists.md
+│   └── 03-Using-CMake-Debug-Mode.md
+│
+├── 08-CMake-Modules-and-Scripts/
+│   ├── 01-Writing-CMake-Modules/
+│   │   ├── FindMyLibrary.cmake
+│   │   ├── CMakeLists.txt
+│   │   └── Explanation.md
+│   ├── 02-Writing-CMake-Scripts/
+│   │   ├── MyScript.cmake
+│   │   ├── CMakeLists.txt
+│   │   └── Explanation.md
+│   └── 03-Using-Find-Package/
+│       ├── CMakeLists.txt
+│       └── Explanation.md
+│
+└── README.md
